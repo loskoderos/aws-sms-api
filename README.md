@@ -30,6 +30,6 @@ API_KEY=XXXXXXXXXXXXXXXX
 curl -i -X POST \
   -H "x-api-key: $API_KEY" \
   -H 'Content-Type: application/json' \
-  -d '{"phone":"+48502670711", "message":"Witamy w POC, tesowy kod 666"}' \
+  -d '{"phone":"+4412345123123", "message":"Hello there, your code is 123456."}' \
   $API_URL
 ~~~
